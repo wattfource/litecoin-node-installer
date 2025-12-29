@@ -1,10 +1,5 @@
-# Secrets file - NEVER commit this
-secrets
-secrets.txt
-secrets.md
-config.md
-*.secret
-*.secrets
+# Private/secrets directory - NEVER commit
+.dev/
 
 # Environment files
 .env
@@ -12,8 +7,6 @@ config.md
 *.env
 
 # Credentials
-credentials
-credentials.txt
 *.credentials
 
 # Private keys
@@ -24,10 +17,6 @@ credentials.txt
 # Wallet files
 *.wallet
 *.dat
-
-# Local config overrides
-local.conf
-*.local
 
 # Editor and OS files
 .DS_Store
@@ -42,4 +31,3 @@ Thumbs.db
 # Build artifacts
 *.log
 *.tmp
-
